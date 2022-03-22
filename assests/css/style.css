@@ -47,6 +47,20 @@ p {
 h2, h3 {
     text-decoration: underline;
 }
+#work {
+    display: flex;
+    flex-direction: column;
+}
+#work img {
+    display: flex;
+    width: 49%;
+    flex: 1;
+}
+#work .pic1 {
+    display: flex;
+    width: 100%;
+}
+
 #resume img {
     width: 100%;
 }
