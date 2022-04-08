@@ -79,6 +79,9 @@ h2, h3 {
 #resume img {
     width: 100%;
 }
+.box {
+    background-color: var(--lightblue);
+}
 /* Sets the footer background color, list style, and centers text */
 footer{
     background-color: var(--lightblue);
