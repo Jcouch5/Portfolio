@@ -1,102 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jason Couch Portfolio</title>
     <!-- linked css sheets -->
-    <link rel="resetstylesheet" href="./assests/css/reset.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assests/css/style.css">
-</head>
-<body class="container box">
-    
-    <header>
-        <h1>Jason Couch</h1>
-    </header>
+    <link rel="resetstylesheet" href="./assests/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assests/css/style.css" />
+  </head>
+  <body class="container box">
+    <header></header>
     <!-- create nav bar with links to parts of page -->
-    <nav>
+    <nav class="row">
+      <h1 class="col-7 mx-2">Jason Couch</h1>
+      <div class="col-4 justify-items-end align-self-center">
         <a href="#aboutMe">About Me</a>
         <a href="#work">Work</a>
         <a href="#resume">Resume</a>
         <a href="#contact">Contact Me</a>
-    </nav> 
+      </div>
+    </nav>
 
-    <main class="container">
-        <!-- create the about me section -->
-        <section id="aboutMe">
-            <h2>About Me</h2>
-            <article>
-                <img src="./assests/Images/499E6EDB-9DF4-4230-A952-B111FB7E6F99.JPG" alt="Photo of Jason Couch">
-                <aside>
-                    <p>My name is Jason Couch. I am 21 years old. I am currently
-                        on track to graduate with Bachelors of Business Adminstration
-                        with a concentration in Finance in July of 2022. I am also currently
-                        enrolled in a Coding Bootcamp sponsered by Georgia Tech.
-                    </p>
-                    <p>I have experience with Microsoft Suite, SAP, and webpage development.
-                        I am beginner level with Java and Python and intermediate with
-                        HTMl and CSS.
-                    </p>
-                    <p>I currently work at Medline Industries as an Operations Specialist.
-                        I have worked at Medline for about 3 years. I started at Medline as
-                        an Utility Operator and moved up to Machine Operator 1, 2, and 3 before
-                        moving into my current role.
-                    </p>
-                </aside>
-            </article>
-        </section>
-        <!-- create the work section of page and adds images and links for each work-->
-        <section id="work">
-            <h2>Work</h2>
-            <a class="dashboardDaily row" href="https://github.com/Samuels1996/Morning-meme-page">
-                <h4>Mini Project</h4>
-                <img class="col-12" src="./assests/Images/Dashboard-Daily.png" alt="image of deployed website for Dashboard Daily">
+    <main class="container pb-3">
+      <!-- create the about me section -->
+      <section id="aboutMe row">
+        <h2>About Me</h2>
+        <article class="row">
+          <img
+            src="./assests/Images/499E6EDB-9DF4-4230-A952-B111FB7E6F99.JPG"
+            alt="Photo of Jason Couch"
+            class="align-self-center col col-sm-2 m-2"
+          />
+          <aside class="col col-9 align-self-center">
+            <p>
+              My name is Jason Couch. I am 21 years old. I am currently on track
+              to graduate with Bachelors of Business Adminstration with a
+              concentration in Finance in July of 2022. I am also currently
+              enrolled in a Coding Bootcamp sponsered by Georgia Tech.
+            </p>
+            <p>
+              I have experience with Microsoft Suite, SAP, and webpage
+              development. I am beginner level with Java and Python and
+              intermediate with HTMl and CSS.
+            </p>
+            <p>
+              I currently work at Medline Industries as an Operations
+              Specialist. I have worked at Medline for about 3 years. I started
+              at Medline as an Utility Operator and moved up to Machine Operator
+              1, 2, and 3 before moving into my current role.
+            </p>
+          </aside>
+        </article>
+      </section>
+      <!-- create the work section of page and adds images and links for each work-->
+      <section id="work row">
+        <h2>Work</h2>
+        <p>
+          Note: Click on any of the images to be taken to the deployed
+          application
+        </p>
+        <h4>The Theorist</h4>
+        <a
+          class="dashboardDaily row"
+          href="https://desolate-peak-38823.herokuapp.com/"
+        >
+          <img
+            class="col-12"
+            src="./assests/Images/The Theorist.png"
+            alt="image of deployed website for The Theorist"
+          />
+        </a>
+        <div class="row justify-content-between">
+          <div class="col-sm-5">
+            <h4>Dashboard Daily</h4>
+            <a
+              class="dashboardDaily row"
+              href="https://github.com/Samuels1996/Morning-meme-page"
+            >
+              <img
+                class="col-12 h-100"
+                src="./assests/Images/Dashboard-Daily.png"
+                alt="image of deployed website for Dashboard Daily"
+              />
             </a>
-            <div class="row">
-                <a class="miniProject" href="https://jcouch5.github.io/Unit1MiniProject/">
-                    <h4>Mini Project</h4>
-                    <img src="./assests/Images/Screen Shot 2022-03-22 at 11.45.16 AM.png" alt="image of deployed website for Unit 1 Mini Project">
-                </a>
-                <a class="accessibleMarketing" href="https://jcouch5.github.io/AccessibleMarketing/">
-                    <h4>Accessible Marketing</h4>
-                    <img src="./assests/Images/ScreenShot.png" alt="image of deployed website for Accessible Marketing">
-                </a>
-                <a class="aboutMe" href="https://jcouch5.github.io/prework-about-me/">
-                    <h4>My First About Me Page</h4>
-                    <img src="./assests/Images/Screen Shot 2022-03-22 at 12.17.10 PM.png" alt="image of deployed website for My first about me page">
-                </a>
-            </div>
-        </section>
-        <!--  create resume section of page and adds image of resume-->
-        <section id="resume">
-            <h2>Resume</h2>
-            <img src="./assests/Images/Screen Shot 2022-03-21 at 1.56.28 PM.png" alt="Jason Couch's Resume">
-        </section>
+          </div>
+          <div class="col-sm-5">
+            <h4>Mini Project</h4>
+            <a
+              class="miniProject"
+              href="https://jcouch5.github.io/Unit1MiniProject/"
+            >
+              <img
+                class="col-12"
+                src="./assests/Images/Screen Shot 2022-03-22 at 11.45.16 AM.png"
+                alt="image of deployed website for Unit 1 Mini Project"
+              />
+            </a>
+          </div>
+          <div class="col-sm-5">
+            <h4>Accessible Marketing</h4>
+            <a
+              class="accessibleMarketing col-5"
+              href="https://jcouch5.github.io/AccessibleMarketing/"
+            >
+              <img
+                class="col-12"
+                src="./assests/Images/ScreenShot.png"
+                alt="image of deployed website for Accessible Marketing"
+              />
+            </a>
+          </div>
+          <div class="col-sm-5">
+            <h4>My First About Me Page</h4>
+            <a
+              class="aboutMe col-5"
+              href="https://jcouch5.github.io/prework-about-me/"
+            >
+              <img
+                class="col-12"
+                src="./assests/Images/Screen Shot 2022-03-22 at 12.17.10 PM.png"
+                alt="image of deployed website for My first about me page"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+      <!--  create resume section of page and adds image of resume-->
+      <section id="resume">
+        <h2>Resume</h2>
+        <img src="./assests/Images/resume.png" alt="Jason Couch's Resume" />
+      </section>
     </main>
     <!-- creates footer and adds links to phone number, email, github, and linkedin -->
     <footer id="contact">
-        <h3>Contact Me</h3>
-        <li>
-            <ul>
-                <label for="Phone number">Cell:</label>
-                <a href="tel: +18476373823">(847)637-3823</a>
-            </ul>
-             <ul>
-                <label for="Email">Email:</label>
-                <a href="mailto:jasoncouchjr410@gamil.com">Jasoncouchjr410@gmail.com</a>
-             </ul>
-             <ul>
-                <label for="Github">GitHub:</label>
-                <a href="https://github.com/Jcouch5">GitHub</a>
-             </ul>
-             <ul>
-                <label for="Linkedin">LinkedIn:</label>
-                <a href="https://www.linkedin.com/in/jason-couch-716153195">LindedIn</a>
-             </ul>
-        </li>
-
+      <h3>Contact Me</h3>
+      <li>
+        <ul>
+          <label for="Phone number">Cell:</label>
+          <a href="tel: +18476373823">(847)637-3823</a>
+        </ul>
+        <ul>
+          <label for="Email">Email:</label>
+          <a href="mailto:jasoncouchjr410@gamil.com"
+            >Jasoncouchjr410@gmail.com</a
+          >
+        </ul>
+        <ul>
+          <label for="Github">GitHub:</label>
+          <a href="https://github.com/Jcouch5">GitHub</a>
+        </ul>
+        <ul>
+          <label for="Linkedin">LinkedIn:</label>
+          <a href="https://www.linkedin.com/in/jason-couch-716153195"
+            >LindedIn</a
+          >
+        </ul>
+      </li>
     </footer>
-</body>
+  </body>
 </html>
